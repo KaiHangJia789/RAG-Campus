@@ -1,5 +1,5 @@
 # embed_tables.py
-import os
+import  os
 from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import DashScopeEmbeddings  # 如果用阿里云的 text-embedding-v4

@@ -41,7 +41,7 @@ def process_pdf_to_chroma(pdf_path: str, chroma_dir: str) -> Chroma:
     pages = loader.load()
     logger.info(f"成功加载 {len(pages)} 页")
 
-    splitter = RecursiveCharacterTextSplitter(
+    splitter =  RecursiveCharacterTextSplitter(
         chunk_size=config.CHUNK_SIZE,
         chunk_overlap=config.CHUNK_OVERLAP,
         separators=config.SEPARATORS,

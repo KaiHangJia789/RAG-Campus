@@ -1,12 +1,12 @@
 # embed_and_store.py
 
-"""
+""" 
 将校园手册文本分块、生成 embeddings 并存入 Chroma 向量数据库。
 用法: python embed_and_store.py
 """
 from pydoc import text
 import sys
-import logging
+import logging 
 from typing import List
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter

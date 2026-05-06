@@ -29,7 +29,7 @@ def extract_tables_from_pdf(pdf_path):
 def save_tables(tables_dict, output_prefix="table"):
     """
     将提取的表格保存为CSV文件
-    """
+    """ 
     for page_no, dfs in tables_dict.items():
         for idx, df in enumerate(dfs):
             filename = f"{output_prefix}_p{page_no}_{idx}.csv"
