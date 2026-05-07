@@ -1,7 +1,7 @@
 # rag_chain.py
 
 """
-RAG-LangChain问答链:
+RAG-LangChain 问答链:
         根据用户问题检索相关手册,使用Qwen 生成答案
 用法:
          python rag_chain.py "你的问题"

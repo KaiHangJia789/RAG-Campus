@@ -3,7 +3,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 import config_data as config
 
-#指定 PDF  文件路径
+# 指定 PDF  文件路径
 pdf_path = config.PDF_PATH
 def load_pdf(pdf_path):
     print("正在加载 PDF 文件 {padf_path} ...")

@@ -12,7 +12,7 @@ from config_data import (
     SEPARATORS,
     PDF_PATH
 )
-from extract_table import extract_tables_to_text
+from  extract_table import extract_tables_to_text
 
 def embed_table_descriptions():
     # 1. 抽取表格描述

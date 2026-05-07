@@ -36,7 +36,7 @@ def get_embeddings():
 
 
 def process_pdf_to_chroma(pdf_path: str, chroma_dir: str) -> Chroma:
-    """处理 PDF 文件：加载、分块、生成 embeddings、存入 Chroma"""
+    """处理 PDF  文件：加载、分块、生成 embeddings、存入 Chroma"""
     loader = PyPDFLoader(pdf_path)
     pages = loader.load()
     logger.info(f"成功加载 {len(pages)} 页")
